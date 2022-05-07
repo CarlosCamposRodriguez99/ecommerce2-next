@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+
+
+
+.list {
+  display: flex;
+  gap: 4rem;
+}
+
+.iconoInsta {
+  background-image: url("../public/img/instagram-brands.svg");
+  padding: 2rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+
+}
+
+.iconoFace {
+  background-image: url("../public/img/facebook-square-brands.svg");
+  padding: 2rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}

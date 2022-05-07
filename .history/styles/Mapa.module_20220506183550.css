@@ -1,0 +1,126 @@
+.titulo {
+  font-family: 'Libre Bodoni', serif; /* */
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary);
+  margin: 5rem 0;
+}
+
+.descripcion {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media(min-width: 300px) {
+  .descripcion {
+    text-align: left;
+  }
+}
+
+@media(min-width: 1200px) {
+  .descripcion {
+    text-align: left;
+  }
+}
+
+.head {
+  max-width: 120rem;
+  margin: 2rem 2rem 0 1rem;
+  width: 90%;
+  display: grid;
+}
+
+.campo {
+  width: 50%;
+}
+
+@media(min-width: 300px) {
+  .campo {
+    width: 100%;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+
+  }
+}
+
+@media(min-width: 1200px) {
+  .campo {
+    width: 40%;
+  }
+}
+
+.boton {
+  background-color: var(--primary);
+  border: 2px solid #FFF;
+  width: 100%;
+  cursor: pointer;
+  color: var(--blanco);
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.boton:hover {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+.borde {
+  background-color: var(--blanco);
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.contenido {
+  display: grid;
+  gap: 4rem;
+  width: 50%;
+}
+
+
+/*aqui el mapa perro */
+.campomapa {
+    gap: 4rem;
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+
+@media(min-width: 300px) {
+  .contenido {
+    gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+
+@media(min-width: 820px) {
+  .contenido {
+    gap: 2rem;
+    display: grid;
+    width: 30%;
+  }
+}
+
+@media(min-width:1200px) {
+  .contenido {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+}
+

@@ -1,0 +1,97 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+@media(min-width:768px) {
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navegacion a {
+  text-decoration: none;
+  font-size: 2.8rem;
+  color: var(--blanco);
+  font-weight: 700;
+}
+@media(min-width:768px) {
+  .navegacion {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+.navegacion a:hover {
+  color: var(--primary);
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.7rem;
+  color: var(--blanco);
+  font-weight: 630;
+  text-align: center;
+  margin: 0;
+}
+@media(min-width:768px) {
+  .copyright {
+    flex-direction: ;
+
+  }
+}
+.list {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  align-items: center;
+}
+@media(min-width:768px) {
+  .list {
+    flex-direction: row;
+  }
+}
+.list a {
+  text-decoration: none;
+  font-size: 2.8rem;
+  color: var(--blanco);
+  font-weight: 700;
+}
+
+.iconoInsta {
+  background-image: url("../public/img/instagram-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+.iconoFace {
+  background-image: url("../public/img/facebook-square-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+
+}
+.iconoWhats {
+  background-image: url("../public/img/whatsapp-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+
+}
+.iconoLinke {
+  background-image: url("../public/img/linkedin-brands.svg");
+  padding: 3rem; 
+  font-size: 24px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+
+
+}

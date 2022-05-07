@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Bodoni:ital,wght@1,600;1,700&display=swap');
+
+:root {
+  --primary: #e99401;
+  --negro: #262626;
+  --verde: #008000;
+  --blanco: #FFF;
+  --fuente-principal: 'Outfit', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+@media(max-width:1200px) {
+  html {
+    display: flex;
+    flex: 1;
+  }
+}
+/*IPAD*/
+@media(max-width:820px) {
+  .html {
+    display: flex;
+  }
+}
+/*IPHONE 7 8 */
+@media(min-width:300px) {
+  .html {
+    display: flex;
+    flex: 1;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+[class*="contenedor"] {
+  max-width: 120rem;
+  margin: 0 1rem;
+  width: 90%;
+}
+
+
+[class*="heading"] {
+  font-family: 'Libre Bodoni', serif; /* */
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primary);
+  margin: 5rem 0;
+}

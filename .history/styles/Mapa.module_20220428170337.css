@@ -1,0 +1,14 @@
+.contenido {
+  display: grid;
+  gap: 4rem;
+  width: 50%;
+}
+
+@media(min-width: 300px) {
+  .contenido {
+    gap: 2rem;
+    display: grid;
+    width: 95%;
+  }
+}
+

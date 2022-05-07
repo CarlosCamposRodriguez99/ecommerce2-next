@@ -1,0 +1,17 @@
+.contenido {
+  display: grid;
+  gap: 4rem;
+}
+@media (min-width:768px) {
+  .contenido {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+.carrito {
+  padding: 3rem 0;
+}
+
+.producto {
+  display: grid;
+}

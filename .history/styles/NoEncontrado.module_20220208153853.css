@@ -1,0 +1,11 @@
+.no_encontrado {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no_encontrado a {
+  
+}

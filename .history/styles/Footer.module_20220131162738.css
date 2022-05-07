@@ -1,0 +1,16 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+
+.icon {
+  background-image: url("../public/img/instagram.png");
+  padding: .8rem;
+  margin-right: .5rem;
+  background-position: 20%;
+  background-size: auto;
+  display: flex;
+  flex-direction: s;
+}
+@media(min-width:768px)

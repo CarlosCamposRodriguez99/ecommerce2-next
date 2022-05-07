@@ -1,0 +1,9 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+
+.icon {
+  background-image: linearurl("../public/img/instagram.png");
+}

@@ -1,0 +1,12 @@
+.contenido {
+  display: grid;
+  gap: 4rem;
+}
+
+@media(min-width: 300px) {
+  .contenido {
+    gap: 2rem;
+    display: grid;
+  }
+}
+

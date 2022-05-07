@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+
+.icon {
+  background-image: url("../public/img/instagram-brands.svg");
+  color: rgb(255,255,255);
+  padding: 2rem;
+  padding-bottom: 0;
+  padding-inline-end: 0 auto;
+  padding-inline-start: 0 auto;
+  font-size: 24px;
+  transform-origin: var(--blanco);
+  box-shadow: none;
+
+
+
+
+}
+@media(min-width:768px) {
+
+
+}

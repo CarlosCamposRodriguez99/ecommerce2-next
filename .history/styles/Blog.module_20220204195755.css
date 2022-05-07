@@ -1,0 +1,9 @@
+.blog {
+  display: grid;
+  gap: 4rem;
+}
+@media(min-width:1200px) {
+  .blog {
+    grid-template-columns: ;
+  }
+}

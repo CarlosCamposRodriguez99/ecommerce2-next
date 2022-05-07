@@ -1,0 +1,47 @@
+.boton {
+  background-color: var(--primary);
+  width: 100%;
+  cursor: pointer;
+  color: var(--blanco);
+}
+
+.borde {
+  background-color: var(--blanco);
+  width: 100%;
+  margin-top: 3rem;
+}
+
+
+
+
+.contenido {
+  display: grid;
+  gap: 4rem;
+  width: 50%;
+}
+
+@media(min-width: 300px) {
+  .contenido {
+    gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 10%;
+  }
+}
+
+@media(min-width: 820px) {
+  .contenido {
+    gap: 2rem;
+    display: grid;
+    width: 30%;
+  }
+}
+
+@media(min-width:1200px) {
+  .contenido {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+}
+

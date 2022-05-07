@@ -1,0 +1,68 @@
+.campo {
+  width: 50%;
+}
+
+@media(min-width: 300px) {
+  .campo {
+    width: 100%;
+  }
+}
+
+.boton {
+  background-color: var(--primary);
+  width: 100%;
+  cursor: pointer;
+  color: var(--blanco);
+  justify-content: center;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.borde {
+  background-color: var(--blanco);
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.contenido {
+  display: grid;
+  gap: 4rem;
+  width: 50%;
+  min-width: 300px;
+}
+
+@media(min-width: 300px) {
+  .contenido {
+    gap: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    width: 10%;
+  }
+}
+
+@media(min-width: 820px) {
+  .contenido {
+    gap: 2rem;
+    display: grid;
+    width: 30%;
+  }
+}
+
+@media(min-width:1200px) {
+  .contenido {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+}
+

@@ -1,0 +1,6 @@
+.no_encontrado {
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

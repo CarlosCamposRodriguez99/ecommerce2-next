@@ -1,0 +1,5 @@
+.listado {
+  display: grid;
+  gap: 4rem;
+}
+@media

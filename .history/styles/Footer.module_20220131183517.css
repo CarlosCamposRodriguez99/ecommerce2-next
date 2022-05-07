@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--negro);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+
+.i {
+  background-image: url("../public/img/instagram-brands.svg");
+  padding: 1em; 
+  margin-top: 3rem;
+  padding-bottom: 0;
+  font-size: 24px;
+
+}
+@media(min-width:768px) {
+  .i {
+    padding: 2rem;
+    webkit-padding-after: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 0 0 0 0;
+    padding-block-end: 0;
+    font-size: 2rem;
+  }
+}
